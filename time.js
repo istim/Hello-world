@@ -7,6 +7,6 @@ if (typeof el.innerText !== 'undefined') {
 }
 
 function daiZharu(x){
-  let a = prompt('Изменить текст кнопки:', x);
-  butMakeMagic.innerText = a;
+  let textToButton = prompt('Изменить текст кнопки:', x);
+  butMakeMagic.textContent = textToButton;
 }
