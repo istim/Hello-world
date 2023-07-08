@@ -20,6 +20,6 @@ button {
 button:hover {
     transition: all .3s ease-out;
     background-color: rgb(146, 108, 250);
-    padding: 7px 20px;
+    padding: 5px 20px;
     cursor: pointer;
 }
